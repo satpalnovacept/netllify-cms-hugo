@@ -4,23 +4,11 @@ backend:
 media_folder: static/img
 public_folder: /img
 
-# collections:
-#   - name: 'blog'
-#     label: 'Blog'
-#     folder: 'content/blog'
-#     create: true
-#     slug: '{{slug}}'
-#     editor:
-#       preview: false
-#     fields:
-#       - { label: 'Title', name: 'title', widget: 'string' }
-#       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-#       - { label: 'Description', name: 'description', widget: 'string' }
-#       - { label: 'Body', name: 'body', widget: 'markdown' }
-#       - {label: Image, name: image, widget: image}
 collections:
-  files:
-      - file: "site/content/_index.md","site/content/rajesh.md"
+  - name: "pages"
+    label: "Pages"
+    files:
+      - file: "site/content/_index.md"
         label: "Home Page"
         name: "home"
         fields:
@@ -28,16 +16,6 @@ collections:
           - {label: Heading, name: heading, widget: string}
           - {label: Subtitle, name: subtitle, widget: string}
           - {label: Image, name: image, widget: image}
+          - {label: Image, name: image, widget: image}
           - {label: 'Body', name: 'body', widget: 'markdown'}
-          # - {label: "Blurb", name: blurb, widget: object, fields: [
-          #     {label: "Heading", name: "heading", widget: string},
-          #     {label: "Text", name: "text", widget: "text"}]}
-          # - {label: "Intro", name: intro, widget: object, fields: [
-          #     {label: "Heading", name: "heading", widget: string},
-          #     {label: "Text", name: "text", widget: "text"}]}
-          # - {label: "Products", name: products, widget: list, fields: [
-          #     {label: "Image", name: "image", widget: "image"},
-          #     {label: "Text", name: "text", widget: "text"}]}
-          # - {label: "Values", name: "values", widget: "object", fields: [
-          #     {label: "Heading", name: "heading", widget: string},
-          #     {label: "Text", name: "text", widget: "text"}]}
+          
