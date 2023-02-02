@@ -20,7 +20,7 @@ public_folder: /img
 #       - {label: Image, name: image, widget: image}
 collections:
   files:
-      - file: "site/content/_index.md","site/content/rajesh.md"
+      - file: "site/content/_index.md"
         label: "Home Page"
         name: "home"
         fields:
