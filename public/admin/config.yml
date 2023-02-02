@@ -20,7 +20,7 @@ public_folder: /img
 #       - {label: Image, name: image, widget: image}
 collections:
   files:
-      - file: "site/content/_index.md","site/content/rajesh.md"
+      - file: "site/content/_index.md"
         label: "Home Page"
         name: "home"
         fields:
@@ -29,15 +29,3 @@ collections:
           - {label: Subtitle, name: subtitle, widget: string}
           - {label: Image, name: image, widget: image}
           - {label: 'Body', name: 'body', widget: 'markdown'}
-          # - {label: "Blurb", name: blurb, widget: object, fields: [
-          #     {label: "Heading", name: "heading", widget: string},
-          #     {label: "Text", name: "text", widget: "text"}]}
-          # - {label: "Intro", name: intro, widget: object, fields: [
-          #     {label: "Heading", name: "heading", widget: string},
-          #     {label: "Text", name: "text", widget: "text"}]}
-          # - {label: "Products", name: products, widget: list, fields: [
-          #     {label: "Image", name: "image", widget: "image"},
-          #     {label: "Text", name: "text", widget: "text"}]}
-          # - {label: "Values", name: "values", widget: "object", fields: [
-          #     {label: "Heading", name: "heading", widget: string},
-          #     {label: "Text", name: "text", widget: "text"}]}
