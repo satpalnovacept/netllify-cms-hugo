@@ -8,4 +8,5 @@
     <div style="padding: 25px; background-color: #d8d8d82b;">
         <h2 style="text-align: center;">{{.Params.textHeading}}</h2>
     </div>
+    {{ partial "card" (dict "imageUrl" .Params.image) }}
 {{end}}
