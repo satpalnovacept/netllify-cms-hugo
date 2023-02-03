@@ -15,6 +15,10 @@ collections:
           - {label: Title, name: title, widget: string}
           - {label: Heading, name: heading, widget: string}
           - {label: Subtitle, name: subtitle, widget: string}
-          - {label: Image, name: image, widget: image}
+          - {label: Hero Part Image, name: image, widget: image}
+          - {label: 1st Image for Carousel , name: image1, widget: image}
+          - {label: 2nd Image for Carousel, name: image2, widget: image}
+          - {label: 3rd Image for Carousel, name: image3, widget: image}
+          - {label: Text Heading, name: textHeading, widget: string}
           - {label: 'Body', name: 'body', widget: 'markdown'}
           
