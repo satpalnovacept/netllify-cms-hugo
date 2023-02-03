@@ -1,11 +1,11 @@
 ---
-title: satpal aa
-heading: wzrextrcyvubinoimp
-subtitle: vjakbjakxnslxbXNLXKHAVKBJN;LM';
-image: /img/63-2-.png
-image1: /img/2.png
-image2: /img/3.png
-image3: /img/1.png
-textHeading: SATPALAL
+title: satpal alalaria
+heading: this is a new demo site
+subtitle: saidyayayay
+image: /img/2.png
+image1: /img/3.png
+image2: /img/1.png
+image3: /img/2.png
+textHeading: our products
 ---
-H﻿VAJKSBAXKJBAS
+t﻿his is a demo site
