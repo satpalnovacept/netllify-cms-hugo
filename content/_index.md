@@ -1,5 +1,5 @@
 ---
-title: NovaEstate
+title: Novacept
 heading: this is a demo
 subtitle: Sale and buy property
 image: /img/1.png
