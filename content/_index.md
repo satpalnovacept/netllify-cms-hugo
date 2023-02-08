@@ -6,7 +6,7 @@ image: /img/1.png
 image1: /img/1.png
 image2: /img/2.png
 image3: /img/3.png
-textHeading: Our Products
+textHeading: Our Products by Novacept
 ---
 
 Hello Satpal
